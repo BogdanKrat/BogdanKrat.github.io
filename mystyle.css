@@ -19,19 +19,20 @@ font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 28px;
 }
 
-p{
-color: #1e0a00;
-text-align: center;
-font-family: "Roboto", Verdana, Arial, serif;
-font-size: 35px;
+h3{
+    color: #00ff7f;
+    text-align: center;
+    background-color: #9f5423;
+    font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
+    font-size: 28px;
 }
 
-h3{
-    color: #1e0a00;
-    text-align: left;
-    font-family: "Roboto", sans-serif;
-    font-weight: 450;
-    font-size: 18px;
+p{
+color: #1e0a00;
+text-align: left;
+font-family: "Roboto", Verdana, Arial, serif;
+font-size: 18px;
+font-weight: 450;
 }
 
 /*navigointi*/
