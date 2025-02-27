@@ -20,7 +20,7 @@ font-size: 28px;
 
 p{
 color: #1e0a00;
-text-align: center;
+text-align: left;
 font-family: "Roboto", sans-serif;
 font-size: 18px;
 }
@@ -48,4 +48,19 @@ nav a:hover {
 #valittu {
     color: #00ff7f;
     background-color: #1e0a00;
+}
+
+.toimintakehote {
+    border: 1px solid #1e0a00;
+    border-radius: 5px;
+    background-color: #00ff7f;
+    font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
+    color: #1e0a00;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer
+    
 }
