@@ -3,7 +3,8 @@
 <head>   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEjuhlat</title>
+    <title>BEjuhlat - paras tapa rentoutua</title>
+    <link rel="stylesheet" href="reste.css">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +13,20 @@
 <body>
     <!--navigointi-->
 
-    <nav>
-        <a href="index.html" id="valittu">BEjuhlat</a>
-        <a href="tilat.html">Tilat</a>
-        <a href="yhteystiedot.html">Yhteystiedot</a>
-    </nav>
+    <header class="header-main">
+
+        <a href="index.html" class="header-main-logo">BEjuhlat</a>
+
+        <nav class="header-main-nav">
+            <ul>
+                <li><a href ="index.html">Etusivu</a></li>
+                <li><a href ="tilat.html">Tilat</a></li>
+                <li><a href ="yhteystiedot.html">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-main-sm"></div>
+    </header>
     <!--slogan-->
     <h1 id="slogan">Tykkätkö juhlia? Haluatko chillata, mutta et jaksa maksaa liika? Nyt olemme löytäneet toisiaan!</h1>
     <a href="tilat.html" class="toimintakehote">Vuokraa tila</a>
