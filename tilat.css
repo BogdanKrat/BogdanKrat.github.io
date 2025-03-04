@@ -1,6 +1,58 @@
 body{
     background-color: #E5FFE5;
 }
+a {
+    cursor: pointer;
+}
+
+.header-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #9f5423;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+.header-main-logo {
+    color: #E5FFE5;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
+    width: fit-content;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+.header-main-nav ul li a {
+    padding: 0 10px;
+    color: #E5FFE5;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Verdana', Arial,sans-serif;
+    line-height: 60px;
+    display: block;
+    height: 100%;
+}
+.header-main-nav ul li a:hover{
+    color: #00ff7f;
+}
 
 h1{
 color: #00ff7f;
@@ -35,35 +87,4 @@ text-align: left;
 font-family: "Roboto", Verdana, Arial, serif;
 font-size: 18px;
 font-weight: 450;
-}
-
-/*navigointi*/
-nav a{
-    background: #00ff7f;
-    font-family: 'Trebuchet MS', 'Verdana', 'Arial', sans-serif;
-    color: #1e0a00;
-    text-decoration: none;
-    display: inline-block;
-}
-nav a:hover {
-    color:#1e0a00;
-    background-color: #E5FFE5;
-}
-#valittu {
-    color: #00ff7f;
-    background-color: #1e0a00;
-}
-
-.toimintakehote {
-    border: 1px solid #1e0a00;
-    border-radius: 5px;
-    background-color: #00ff7f;
-    font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
-    color: #1e0a00;
-    padding: 8px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer
 }

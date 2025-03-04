@@ -62,16 +62,23 @@ main{
     bottom: 60px;
 }
 
+.slogan{
+    position: relative;
+    top: 80px;
+}
+
+
 main a{
     margin-top: 10px;
     position: relative;
+    top: 80px;
     left: 50%;
     translate: -50%;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
     display: block;
     background-color: #00ff7f;
-    padding: 7px 14px;
+    padding: 7px 16px;
     width: fit-content;
     border: 1px solid #1e0a00;
     border-radius: 5px;
