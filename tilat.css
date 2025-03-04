@@ -1,6 +1,7 @@
 body{
     background-color: #E5FFE5;
 }
+
 a {
     cursor: pointer;
 }
@@ -32,7 +33,7 @@ a {
 
 .header-main-nav ul {
     list-style: none;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .header-main-nav ul li {
@@ -54,37 +55,96 @@ a {
     color: #00ff7f;
 }
 
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    bottom: 60px;
+}
+
 h1{
-color: #00ff7f;
-text-align: left;
+    position: relative;
+    top: 10%;
+color: #9f5423;
+text-align: center;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 40px;
-background-color: #9f5423;
+background-color: #E5FFE5;
 }
 
 
+.tila1{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.bkuva{
+    width: 500px;
+}
+
 h2{
-color: #1e0a00;
-text-align: left;
+    display: block;
+    position: relative;
+    left: 30%;
+    width: fit-content;
+    padding: 7px 16px;
+    cursor: pointer;
+color: #00ff7f;
 text-decoration: underline;
 background-color: #9f5423;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
-font-size: 28px;
+font-size: 24px;
+}
+
+.tila2{
+    position: absolute;
+    right: 10%;
+    top: 30%;
 }
 
 h3{
-    color: #1e0a00;
-    text-align: right;
+    display: block;
+    position: relative;
+    right: 30%;
+    width: fit-content;
+    padding: 7px 16px;
+    cursor: pointer;
+    color: #00ff7f;
     text-decoration: underline;
     background-color: #9f5423;
     font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 p{
 color: #1e0a00;
-text-align: left;
 font-family: "Roboto", Verdana, Arial, serif;
 font-size: 18px;
 font-weight: 450;
+text-align: center;
+}
+
+.alapainike1 {
+    display: block;
+    position: relative;
+    left: 30%;
+    top: 15px;
+    color: #00ff7f;
+    background-color: #9f5423;
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.alapainike2 {
+    display: block;
+    position: relative;
+    right: 30%;
+    top: 15px;
+    color: #00ff7f;
+    background-color: #9f5423;
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 10px;
 }
