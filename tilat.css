@@ -79,10 +79,6 @@ background-color: #E5FFE5;
     top: 30%;
 }
 
-.bkuva{
-    width: 500px;
-}
-
 h2{
     display: block;
     position: relative;
@@ -97,32 +93,8 @@ font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 24px;
 }
 
-.tila2{
-    position: absolute;
-    right: 10%;
-    top: 30%;
-}
-
-h3{
-    display: block;
-    position: relative;
-    right: 30%;
-    width: fit-content;
-    padding: 7px 16px;
-    cursor: pointer;
-    color: #00ff7f;
-    text-decoration: underline;
-    background-color: #9f5423;
-    font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
-    font-size: 24px;
-}
-
-p{
-color: #1e0a00;
-font-family: "Roboto", Verdana, Arial, serif;
-font-size: 18px;
-font-weight: 450;
-text-align: center;
+.bkuva{
+    width: 500px;
 }
 
 .alapainike1 {
@@ -137,10 +109,42 @@ text-align: center;
     border-radius: 10px;
 }
 
+.tila2{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+
+h3{
+    display: block;
+    position: relative;
+    left: 30%;
+    width: fit-content;
+    padding: 7px 16px;
+    cursor: pointer;
+    color: #00ff7f;
+    text-decoration: underline;
+    background-color: #9f5423;
+    font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.ekuva{
+    width: 500px;
+}
+
+p{
+color: #1e0a00;
+font-family: "Roboto", Verdana, Arial, serif;
+font-size: 18px;
+font-weight: 450;
+text-align: center;
+}
+
 .alapainike2 {
     display: block;
     position: relative;
-    right: 30%;
+    left: 30%;
     top: 15px;
     color: #00ff7f;
     background-color: #9f5423;
