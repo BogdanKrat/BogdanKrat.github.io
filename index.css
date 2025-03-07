@@ -94,13 +94,6 @@ h1{
     text-align: center;
 }
 
-p{
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    color: #1e0a00;
-    text-align: left;
-}
-
 h2{
 color: #00ff7f;
 text-align: center;
@@ -116,4 +109,15 @@ h3{
     font-weight: 450;
     font-size: 18px;
 }
+
+.headlause{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    position: absolute;
+    text-align:left;
+    top: 65%;
+    left: 10%;
+    line-height: 1.5;
+}
+
 
