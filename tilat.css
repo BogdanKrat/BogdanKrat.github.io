@@ -112,13 +112,13 @@ font-size: 24px;
     font-size: 18px;
     font-weight: 450;
     text-align: left;
+    line-height: 1.4;
 }
 
 .alapainike1 {
     display: block;
     position: relative;
     left: 30%;
-    top: 15px;
     color: #00ff7f;
     background-color: #9f5423;
     width: fit-content;
@@ -150,14 +150,46 @@ h3{
     width: 500px;
 }
 
+.tiedot2{
+    color: #1e0a00;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.story2{
+    color: #1e0a00;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: right;
+    line-height: 1.4;
+}
+
 .alapainike2 {
     display: block;
     position: relative;
     left: 30%;
-    top: 15px;
     color: #00ff7f;
     background-color: #9f5423;
     width: fit-content;
     padding: 10px 10px;
     border-radius: 10px;
+}
+
+footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #1e0a00;
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px;
+    border: 1px solid #1e0a00;
+    flex-direction: row;
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
 }
