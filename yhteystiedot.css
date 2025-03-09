@@ -56,23 +56,25 @@ a {
 }
 
 h1{
-color: #00ff7f;
+color: #9f5423;
 text-align: left;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 40px;
-background-color: #9f5423;
+background-color: #E5FFE5;
 position: relative;
-top: 100px;
+top: 200px;
 
 }
 
 
 h2{
-color: #00ff7f;
+color: #9f5423;
 text-align: center;
-background-color: #9f5423;
+background-color: #E5FFE5;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 28px;
+position: relative;
+top: 250px;
 }
 
 p{
