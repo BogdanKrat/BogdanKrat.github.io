@@ -62,7 +62,7 @@ font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 40px;
 background-color: #E5FFE5;
 position: relative;
-top: 200px;
+top: 100px;
 
 }
 
@@ -74,12 +74,12 @@ background-color: #E5FFE5;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 28px;
 position: relative;
-top: 250px;
+top: 200px;
 }
 
 .Yhteystiedot{
     position: relative;
-    top: 200px;
+    top: 110px;
     color: #1e0a00;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -88,7 +88,7 @@ top: 250px;
 }
 .Asiakaspalvelunaukioloajat{
     position: relative;
-    top: 300px;
+    top: 250px;
     color: #1e0a00;
     text-align: center;
     font-family: "Roboto", sans-serif;
