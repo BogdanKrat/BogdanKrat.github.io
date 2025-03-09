@@ -94,13 +94,6 @@ h1{
     text-align: center;
 }
 
-p{
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    color: #1e0a00;
-    text-align: left;
-}
-
 h2{
 color: #00ff7f;
 text-align: center;
@@ -116,4 +109,30 @@ h3{
     font-weight: 450;
     font-size: 18px;
 }
+
+.headlause{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    position: absolute;
+    text-align:left;
+    top: 65%;
+    left: 10%;
+    line-height: 1.5;
+}
+
+footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #1e0a00;
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px;
+    border: 1px solid #1e0a00;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    max-height: 15%;
+    justify-content: center;
+}
+
 

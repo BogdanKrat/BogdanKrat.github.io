@@ -64,7 +64,7 @@ main{
 
 h1{
     position: relative;
-    top: 10%;
+    top: 5%;
 color: #9f5423;
 text-align: center;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
@@ -76,11 +76,7 @@ background-color: #E5FFE5;
 .tila1{
     position: absolute;
     left: 10%;
-    top: 30%;
-}
-
-.bkuva{
-    width: 500px;
+    top: 25%;
 }
 
 h2{
@@ -97,16 +93,49 @@ font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 24px;
 }
 
+.bkuva{
+    width: 500px;
+}
+
+.tiedot1{
+    color: #1e0a00;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: right;
+    line-height: 1.4;
+}
+    
+.story1{
+    color: #1e0a00;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.alapainike1 {
+    display: block;
+    position: relative;
+    left: 30%;
+    color: #00ff7f;
+    background-color: #9f5423;
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
 .tila2{
     position: absolute;
     right: 10%;
-    top: 30%;
+    top: 25%;
 }
 
 h3{
     display: block;
     position: relative;
-    right: 30%;
+    left: 30%;
     width: fit-content;
     padding: 7px 16px;
     cursor: pointer;
@@ -117,34 +146,50 @@ h3{
     font-size: 24px;
 }
 
-p{
-color: #1e0a00;
-font-family: "Roboto", Verdana, Arial, serif;
-font-size: 18px;
-font-weight: 450;
-text-align: center;
+.ekuva{
+    width: 500px;
 }
 
-.alapainike1 {
-    display: block;
-    position: relative;
-    left: 30%;
-    top: 15px;
-    color: #00ff7f;
-    background-color: #9f5423;
-    width: fit-content;
-    padding: 10px 10px;
-    border-radius: 10px;
+.tiedot2{
+    color: #1e0a00;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.story2{
+    color: #1e0a00;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: right;
+    line-height: 1.4;
 }
 
 .alapainike2 {
     display: block;
     position: relative;
-    right: 30%;
-    top: 15px;
+    left: 30%;
     color: #00ff7f;
     background-color: #9f5423;
     width: fit-content;
     padding: 10px 10px;
     border-radius: 10px;
+}
+
+footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #1e0a00;
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px;
+    border: 1px solid #1e0a00;
+    flex-direction: row;
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
 }
