@@ -83,6 +83,7 @@ h2{
     display: block;
     position: relative;
     left: 30%;
+    margin-bottom: 10px;
     width: fit-content;
     padding: 7px 16px;
     cursor: pointer;
@@ -119,6 +120,8 @@ font-size: 24px;
     display: block;
     position: relative;
     left: 30%;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
     color: #00ff7f;
     background-color: #9f5423;
     width: fit-content;
@@ -136,6 +139,7 @@ h3{
     display: block;
     position: relative;
     left: 30%;
+    margin-bottom: 10px;
     width: fit-content;
     padding: 7px 16px;
     cursor: pointer;
@@ -172,6 +176,8 @@ h3{
     display: block;
     position: relative;
     left: 30%;
+    font-family: "Roboto", Verdana, Arial, serif;
+    font-size: 18px;
     color: #00ff7f;
     background-color: #9f5423;
     width: fit-content;
@@ -192,4 +198,97 @@ footer{
     margin-top: 150px;
     width: 100%;
     justify-content: center;
+}
+
+/* mobiili - versio */
+
+@media (max-width: 1300px) {
+
+    .header-main-logo {
+        padding-left: 10px;
+    }
+
+    .header-main-nav {
+        display: none;
+    }
+
+    .tila1{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        top: 15%;
+    }
+    
+    h2{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+    }
+    
+    .bkuva{
+        position: relative;
+    left: 50%;
+    translate: -50%;
+    width: 300px;
+    }
+    
+    .tiedot1{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        text-align: center;
+    }
+        
+    .story1{
+        display: none;
+    }
+    
+    .alapainike1 {
+        position: relative;
+        left: 50%;
+        translate: -50%;
+    }
+
+    .tila2{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        top: 30%;
+    }
+    
+    h3{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+    }
+    
+    .ekuva{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        width: 300px;
+    }
+    
+    .tiedot2{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        text-align: center;
+    }
+    
+    .story2{
+        display: none;
+    }
+    
+    .alapainike2 {
+        position: relative;
+        left: 50%;
+        translate: -50%;
+    }
+
+    footer{
+        position: relative;
+        top: 60vh;
+    }
+
 }

@@ -131,8 +131,31 @@ footer{
     flex-direction: row;
     position: relative;
     width: 100%;
-    max-height: 15%;
     justify-content: center;
 }
 
+/* mobiili - versio */
 
+@media (max-width: 800px) {
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .header-main-logo {
+        padding-left: 10px;
+    }
+
+    .header-main-nav {
+        display: none;
+    }
+
+    .headlause{
+        display: none;
+    }
+
+    footer{
+        margin-top: 10%;
+    }
+}
