@@ -56,11 +56,11 @@ a {
 }
 
 h1{
-color: #00ff7f;
-text-align: left;
+color: #9f5423;
+text-align: center;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 40px;
-background-color: #9f5423;
+background-color: #E5FFE5;
 position: relative;
 top: 100px;
 
@@ -68,16 +68,29 @@ top: 100px;
 
 
 h2{
-color: #00ff7f;
+color: #9f5423;
 text-align: center;
-background-color: #9f5423;
+background-color: #E5FFE5;
 font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
 font-size: 28px;
+position: relative;
+top: 200px;
 }
 
-p{
+.Yhteystiedot{
+    position: relative;
+    top: 110px;
     color: #1e0a00;
-    text-align: left;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-size: 18px;
+}
+.Asiakaspalvelunaukioloajat{
+    position: relative;
+    top: 210px;
+    color: #1e0a00;
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 450;
     font-size: 18px;
