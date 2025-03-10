@@ -22,8 +22,8 @@ a {
     font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
     width: fit-content;
     padding-left: 15px;
-    padding-top: 15px;
     display: flex;
+    line-height: 60px;
 }
 
 .header-main-nav {
@@ -137,18 +137,33 @@ footer{
 /* mobiili - versio */
 
 @media (max-width: 800px) {
-
     main{
         width: 80%;
         margin: 0 auto;
     }
     
-    .header-main-logo {
-        padding-left: 10px;
+    .header-main-sm {
+        display: none;
+    }
+    .header-main-nav ul {
+        list-style: none;
+        margin-right: 0px;
+    }
+    
+    .header-main-nav ul li {
+        display: inline;
+        float: left;
+        margin-right: 0px;
+    }
+    
+    .header-main-nav ul li a {
+        font-size: 18px;
     }
 
-    .header-main-nav {
-        display: none;
+
+    .header-main-logo {
+        padding-left: 10px;
+        font-size: 20px;
     }
 
     .headlause{

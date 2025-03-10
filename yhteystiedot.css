@@ -22,8 +22,8 @@ a {
     font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
     width: fit-content;
     padding-left: 15px;
-    padding-top: 15px;
     display: flex;
+    line-height: 60px;
 }
 
 .header-main-nav {
@@ -94,4 +94,57 @@ top: 200px;
     font-family: "Roboto", sans-serif;
     font-weight: 450;
     font-size: 18px;
+}
+
+footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #1e0a00;
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px;
+    border: 1px solid #1e0a00;
+    flex-direction: row;
+    position: relative;
+    margin-top: 30%;
+    width: 100%;
+    justify-content: center;
+}
+
+/* mobiili - versio */
+
+@media (max-width: 1300px) {
+
+    .header-main-sm {
+        display: none;
+    }
+    .header-main-nav ul {
+        list-style: none;
+        margin-right: 0px;
+    }
+    
+    .header-main-nav ul li {
+        display: inline;
+        float: left;
+        margin-right: 0px;
+    }
+    
+    .header-main-nav ul li a {
+        font-size: 18px;
+    }
+
+
+    .header-main-logo {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .kartta{
+        width: 300px;
+    }
+
+    footer{
+        margin-top: 60vh;
+    }
+
 }
